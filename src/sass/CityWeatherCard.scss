@@ -1,0 +1,47 @@
+.card {
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 20px auto;
+	text-align: center;
+	width: 25%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	h2 {
+		font-size: 1.5rem;
+		text-wrap: nowrap;
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		color: #fff;
+		background: #007bff;
+		border-radius: 10px;
+		padding: 5px 10px;
+		font-size: 1.2rem;
+	}
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	text-align: center;
+	color: green
+}
+
+.weather {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .card{
+		width: 50%;
+	}
+}

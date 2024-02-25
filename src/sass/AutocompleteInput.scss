@@ -1,0 +1,33 @@
+.form-control {
+	margin-bottom: 20px;
+}
+
+.list-group {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border: 1px solid #ddd;
+}
+
+.list-group-item {
+	cursor: pointer;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	&:hover {
+		background-color: #f0f0f0;
+	}
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	text-align: center;
+	color: green
+}

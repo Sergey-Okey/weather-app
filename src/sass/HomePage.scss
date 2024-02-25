@@ -1,0 +1,36 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+
+	h1 {
+		font-size: 2rem;
+		margin-bottom: 20px;
+		text-align: center;
+		color: green
+	}
+
+	.city-card {
+		padding: 30px;
+		margin: 10px;
+		text-align: center;
+
+		h2 {
+			font-size: 1.5rem;
+			margin-bottom: 10px;
+		}
+
+		a {
+			display: block;
+			margin-top: 10px;
+			text-decoration: none;
+			color: #007bff;
+		}
+	}
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	text-align: center;
+	color: green
+}

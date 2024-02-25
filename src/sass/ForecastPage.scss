@@ -1,0 +1,42 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+
+	h1 {
+		font-size: 2rem;
+		margin-bottom: 20px;
+		text-align: center;
+		color: green;
+	}
+
+	.back-link {
+		display: block;
+		margin-bottom: 20px;
+		text-decoration: none;
+		color: #007bff;
+	}
+
+
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	text-align: center;
+	color: green
+}
+
+.back {
+	display: flex;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #007bff;
+	border-radius: 10px;
+	width: 70px;
+	padding: 5px 10px;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+}
